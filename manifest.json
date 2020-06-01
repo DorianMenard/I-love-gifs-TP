@@ -1,0 +1,33 @@
+{
+  "name": "ILoveGifs",
+  "short_name": "Gifs",
+  "description": "Select your best gifs",
+  "icons": [
+    {
+      "src": "/assets/images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "orientation": "portrait",
+  "start_url": "/index.html",
+  "background_color": "#f44336",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#f44336",
+  "shortcuts": [
+    {
+      "name": "Search Gifs",
+      "short_name": "Search",
+      "description" : "View Search Gifs",
+      "url": "/search.html",
+      "icons": [{"src":  "/assets/images/icon-192x192.png", "sizes": "192x192"}]
+    }, {
+      "name": "Saved Gifs",
+      "short_name": "Saved",
+      "description" : "View Saved Gifs",
+      "url": "/saved.html",
+      "icons": [{"src":  "/assets/images/icon-192x192.png", "sizes": "192x192"}]
+    }
+  ]
+}
